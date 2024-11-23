@@ -24,7 +24,7 @@ const server = http.createServer(app);
 
 
 server.listen(PORT, ()=>{
-    console.log(`Server Running on PORT http://localhost:${PORT}/`)
+    console.log(`Server Running on PORT http://localhost:${PORT}/. Click on this link to open your web application`)
 });
 
 const MONGO_URL = `mongodb+srv://shivammmhyphen:${process.env.MONGO_URI_PASSWORD}@backend-crud.ybakm.mongodb.net/?retryWrites=true&w=majority&appName=backend-crud`
